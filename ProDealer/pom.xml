@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.rtj</groupId>
-	<artifactId>eLearning</artifactId>
+	<artifactId>ProDealer</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>eLearning Maven Webapp</name>
+	<name>ProDealer Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<springframework.version>4.2.5.RELEASE</springframework.version>
@@ -227,12 +227,12 @@
 					<version>2.4</version>
 					<configuration>
 						<warSourceDirectory>src/main/webapp</warSourceDirectory>
-						<warName>eLearning</warName>
+						<warName>ProDealer</warName>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
-		<finalName>eLearning</finalName>
+		<finalName>ProDealer</finalName>
 	</build>
 </project>

@@ -1,4 +1,3 @@
-package eLearning;
 
 import static org.junit.Assert.*;
 
